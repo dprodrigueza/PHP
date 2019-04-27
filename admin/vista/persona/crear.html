@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario</title>
+	
+	
+</head>
+
+<body>
+	
+	
+	<form id="formulario" method="POST" action="../../controladores/persona/insertarDatos.php">
+		<h1>Formulario.</h1>
+		<p>Codigo (*):  <input type="number" id="codigo" name="codigo" placeholder="Ingrese el código." required></p>
+		<br/>
+		<p>Cédula (*):  <input type="text" id="cedula" name="cedula" placeholder="Ingrese numero de cédula." required></p>
+		<br/>
+		<p>Nombre (*):  <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre." required></p>
+		<br/>
+		<p>Apellido (*):  <input type="text" id="apellido" name="apellido" placeholder="Ingrese apellido." required></p>
+		<br/>
+		<p>Dirección (*):  <input type="text" id="direccion" name="direccion" placeholder="Ingrese dirección." required></p>
+		<br/>
+		<p>Teléfono (*):  <input type="text" id="Telefono" name="telefono" placeholder="Ingrese numero telefonico." required></p> 
+		<br/>
+		<p>E-Mail (*):  <input type="email" id="email" name="email" placeholder="Ingrese un email valido." required></p>
+		<br/>
+		<p>Contraseña (*):  <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese una contraseña." required></p>
+		<br/>
+		<p>Fecha Nacimiento (*):  <input type="date" id="fecNac" name="fecNac" required></p>
+		
+		<br/>
+		
+		<button type="submit" id="btnGuardar"> GUARDAR </button>
+	</form>
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Insertar datos de Persona.</title>
+</head>
+
+<body>
+
+	<?php
+		include('../../../config/conexionDB.php');
+	
+		$codigo = $_POST['codigo'];
+		$cedula = $_POST['cedula'];
+		$nombre = $_POST['nombre'];
+		$apellido = $_POST['apellido'];
+		$direccion = $_POST['direccion'];
+		$telefono = $_POST['telefono'];
+		$email = $_POST['email'];
+		$fecNac = $_POST['fecNac'];	
+	
+	
+		echo("Codigo: " . $codigo);
+		echo("Cedula: " . $cedula);
+		echo("Nombre: " . $nombre);
+		echo("Apellido: " . $apellido);
+		echo("Dirección: " . $direccion);
+		echo ("Teléfono: " . $direccion);
+		echo ("E-Mail: " . $email);
+		echo ("Fecha Nacimiento: " . $fecNac);
+	
+		echo("<p>Codigo: $codigo </p>");
+		echo("<p>Cedula: $cedula </p>");
+		echo("<p>Nombre: $nombre </p>");
+		echo("<p>Apellido: $apellido </p>");
+		echo("<p>Direccion: $direccion </p>");
+		echo("<p>Telefono: $telefono </p>");
+		echo("<p>E-Mail: $email </p>");
+		echo("<p>Fecha Nacimiento: $fecNac </p>");
+	?>
+
+
+</body>
+
+</html>
